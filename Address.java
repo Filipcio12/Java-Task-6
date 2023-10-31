@@ -14,4 +14,10 @@ public class Address {
         this.street = street;
         this.residenceNumber = residenceNumber;
     }
+
+    public String toString() {
+        return(
+            city + ", " + street + " " + residenceNumber
+        );
+    }
 }
