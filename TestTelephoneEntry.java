@@ -7,12 +7,12 @@ public class TestTelephoneEntry {
         Person mateusz = new Person(
             "Mateusz", "Galinski", 
             new Address("Łódź", "Piotrkowska", 66), 
-            new TelephoneNumber("+48", "666666666")
+            new TelephoneNumber("48", "666666666")
         );
         Person kubus = new Person(
             "Kubus", "Dulas",
             new Address("Warszawa", "Krakowskie Przedmieście", 12),
-            new TelephoneNumber("+48", "123123123")
+            new TelephoneNumber("48", "123123123")
         );
         Person marcinek = new Person(
             "Marcinek", "Grawinski",
